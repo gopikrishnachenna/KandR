@@ -1,0 +1,6 @@
+Exercise 1-11. How would you test the word count program?  What kinds of
+input are most likely to uncover bugs if there are any?
+
+I would give an input with multiple whitespace in between the words. Divide words by newline
+and test if it is giving the correct output. Include special characters and
+numerical characters in between the words.
